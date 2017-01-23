@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_marvel_login"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tVFrgLoginFacebookButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/com_facebook_blue"
+        android:drawableLeft="@drawable/ic_login_facebook"
+        android:drawableStart="@drawable/ic_login_facebook"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/default_large_size"
+        android:text="@string/frg_login_login_with_facebook"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/lBFrgLoginFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/default_small_size"
+        android:clickable="true"
+        android:visibility="gone" />
+
+</FrameLayout>

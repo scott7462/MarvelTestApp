@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_marvel_profile"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tVFrgProfileName"
+            style="@style/TextViewProfile"
+            android:textAllCaps="true"
+            tools:text="Pedro Scott"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tVFrgProfileEmail"
+            tools:text="scott7462@gmail.com"
+            style="@style/TextViewProfile" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iVFrgProfile"
+        android:layout_width="@dimen/size_profile_picture"
+        android:layout_height="@dimen/size_profile_picture"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/default_large_size" />
+
+
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id">147356309095653</string>
+    <string name="fb_login_protocol_scheme">fb147356309095653</string>
+    <string name="marvel_public">d43a2f9a65f13bb6c7b43f04a2f966e6</string>
+    <string name="marvel_private">2d2bce7ca358e84aaee10c773da6fc23085ffd71</string>
+</resources>

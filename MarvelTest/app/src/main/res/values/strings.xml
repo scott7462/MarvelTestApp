@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">NextDots</string>
+    <string name="frg_login_title">Login</string>
+    <string name="frg_login_login_with_facebook">Login With FaceBook</string>
+    <string name="error_facebook_connection">Error login with facebook please try late.</string>
+    <string name="frg_login_welcome">Welcome %1$s</string>
+    <string name="frg_profile_title">Profile</string>
+    <string name="base_url">https://gateway.marvel.com:443/v1/public/</string>
+    <string name="api_key">apikey</string>
+    <string name="ts">ts</string>
+    <string name="hash">hash</string>
+    <string name="image_url">%1$s.%2$s</string>
+    <string name="frg_comic_not_price">Not Available</string>
+    <string name="frg_comic_price">Price: %1$s USD</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_logout">Logout</string>
+    <string name="frg_profile_are_logout">Are you sure to logout in this app?</string>
+    <string name="action_ok">Ok</string>
+    <string name="action_favorites">Favorites</string>
+    <string name="frg_details_num_pages">Number of pages: %1$d</string>
+    <string name="action_search">Search</string>
+    <string name="frg_details_no_characters_available">No Characters Available</string>
+    <string name="frg_details_series">Series: %1$s</string>
+    <string name="frg_details_characters">Characters:</string>
+    <string name="frg_details_creators">Creators:</string>
+    <string name="frg_details_no_creators_available">No creators Available</string>
+    <string name="action_favorite">favorite</string>
+    <string name="frag_favorite">Favorities</string>
+    <string name="frag_details_added_favorite">Added to favorite</string>
+    <string name="frag_details_remove">Removed to favorites</string>
+</resources>
